@@ -54,7 +54,7 @@ const Contact = () => {
       icon: MessageCircle,
       title: "WhatsApp",
       value: "Message Us",
-      action: () => window.open('https://wa.me/96181999136', '_blank')
+      action: () => window.open('https://wa.me/message/D5FW66YYHQR2A1', '_blank')
     }
   ];
 
