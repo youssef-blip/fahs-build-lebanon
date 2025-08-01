@@ -46,7 +46,7 @@ const Header = () => {
             <div className={`text-2xl font-heading font-bold transition-colors ${
               isScrolled ? 'text-primary' : 'text-white'
             }`}>
-              <span className="text-gold">Fahs</span> Construction
+              Fahs <span className="text-gold">Construction</span>
             </div>
           </div>
 
