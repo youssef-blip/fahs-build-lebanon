@@ -16,7 +16,7 @@ const Footer = () => {
     },
     {
       icon: MessageCircle,
-      href: "https://wa.me/96171123456",
+      href: "https://wa.me/96181999136",
       label: "WhatsApp"
     }
   ];
@@ -44,7 +44,7 @@ const Footer = () => {
               in every brick we lay.
             </p>
             <div className="text-sm text-white/60">
-              Est. 2010 • Licensed & Insured
+              Est. 1998 • Licensed & Insured
             </div>
           </div>
           
@@ -70,13 +70,13 @@ const Footer = () => {
             <h4 className="text-lg font-heading font-semibold mb-4">Connect With Us</h4>
             <div className="space-y-3 mb-6">
               <div className="text-white/80">
-                📞 +961 71 123 456
+                📞 +961 81 999 136
               </div>
               <div className="text-white/80">
-                ✉️ info@fahsconstruction.com
+                ✉️ fahs.construction@hotmail.com
               </div>
               <div className="text-white/80">
-                📍 Beirut, Lebanon
+                📍 Khaldeh, Lebanon
               </div>
             </div>
             

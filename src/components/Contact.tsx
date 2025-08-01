@@ -35,26 +35,26 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      value: "+961 71 123 456",
-      action: () => window.location.href = 'tel:+96171123456'
+      value: "+961 81 999 136",
+      action: () => window.location.href = 'tel:+96181999136'
     },
     {
       icon: Mail,
       title: "Email",
-      value: "info@fahsconstruction.com",
-      action: () => window.location.href = 'mailto:info@fahsconstruction.com'
+      value: "fahs.construction@hotmail.com",
+      action: () => window.location.href = 'mailto:fahs.construction@hotmail.com'
     },
     {
       icon: MapPin,
       title: "Office",
-      value: "Beirut, Lebanon",
+      value: "Khaldeh, Lebanon",
       action: () => {}
     },
     {
       icon: MessageCircle,
       title: "WhatsApp",
       value: "Message Us",
-      action: () => window.open('https://wa.me/96171123456', '_blank')
+      action: () => window.open('https://wa.me/96181999136', '_blank')
     }
   ];
 
@@ -188,7 +188,7 @@ const Contact = () => {
                 <div className="h-64 bg-gradient-to-br from-primary to-primary-light rounded-lg flex items-center justify-center">
                   <div className="text-center text-white">
                     <MapPin className="h-12 w-12 mx-auto mb-4" />
-                    <div className="text-lg font-medium">Find Us in Beirut</div>
+                    <div className="text-lg font-medium">Find Us in Khaldeh</div>
                     <div className="text-white/80">Lebanon</div>
                   </div>
                 </div>
