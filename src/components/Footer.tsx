@@ -11,12 +11,12 @@ const Footer = () => {
     },
     {
       icon: Video,
-      href: "https://tiktok.com/@fahsconstruction",
+      href: "https://www.tiktok.com/@fahs__construction?_t=ZS-8yW8cVEJH7o&_r=1",
       label: "TikTok"
     },
     {
       icon: Instagram,
-      href: "https://instagram.com/fahsconstruction",
+      href: "https://www.instagram.com/fahs__construction?igsh=MzhlM2N3dGI5d3Bz",
       label: "Instagram"
     },
     {
