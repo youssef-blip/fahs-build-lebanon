@@ -11,7 +11,7 @@ const About = () => {
             </h2>
             <div className="space-y-6 text-lg font-body text-muted-foreground">
               <p>
-                Founded in 2010, Fahs Construction has been at the forefront of Lebanon's 
+                Founded in 1998, Fahs Construction has been at the forefront of Lebanon's 
                 construction industry, transforming visions into reality with unwavering 
                 commitment to excellence.
               </p>
@@ -33,7 +33,7 @@ const About = () => {
                 <div className="text-sm text-muted-foreground">Projects Completed</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-gold">13</div>
+                <div className="text-3xl font-bold text-gold">27</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
               <div className="text-center">
