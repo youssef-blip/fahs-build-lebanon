@@ -1,4 +1,4 @@
-import { Facebook, Instagram, MessageCircle } from "lucide-react";
+import { Facebook, Instagram, MessageCircle, Video } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,6 +8,11 @@ const Footer = () => {
       icon: Facebook,
       href: "https://facebook.com/fahsconstruction",
       label: "Facebook"
+    },
+    {
+      icon: Video,
+      href: "https://tiktok.com/@fahsconstruction",
+      label: "TikTok"
     },
     {
       icon: Instagram,
