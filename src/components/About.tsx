@@ -44,13 +44,26 @@ const About = () => {
           </div>
           
           <div className="animate-slide-in-right">
-            <div className="relative">
-              <img
-                src={teamPhoto}
-                alt="Fahs Construction Team"
-                className="rounded-2xl shadow-elegant w-full"
-              />
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-primary/20 to-transparent"></div>
+            <div className="relative bg-gradient-to-br from-primary to-primary-light rounded-2xl p-12 shadow-elegant text-white text-center">
+              <h3 className="text-3xl font-heading font-bold mb-6">Why Choose Us?</h3>
+              <div className="space-y-4">
+                <div className="flex items-center justify-center space-x-3">
+                  <div className="w-3 h-3 bg-gold rounded-full"></div>
+                  <span className="text-lg">Licensed & Insured</span>
+                </div>
+                <div className="flex items-center justify-center space-x-3">
+                  <div className="w-3 h-3 bg-gold rounded-full"></div>
+                  <span className="text-lg">Quality Guaranteed</span>
+                </div>
+                <div className="flex items-center justify-center space-x-3">
+                  <div className="w-3 h-3 bg-gold rounded-full"></div>
+                  <span className="text-lg">On-Time Delivery</span>
+                </div>
+                <div className="flex items-center justify-center space-x-3">
+                  <div className="w-3 h-3 bg-gold rounded-full"></div>
+                  <span className="text-lg">Competitive Pricing</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
