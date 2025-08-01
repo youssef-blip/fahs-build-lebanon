@@ -8,7 +8,7 @@ const Hero = () => {
   };
 
   const callNow = () => {
-    window.location.href = 'tel:+96171123456';
+    window.location.href = 'tel:+96181999136';
   };
 
   return (
