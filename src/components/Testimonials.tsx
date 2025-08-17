@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Hani B.",
+      name: "Tarek H.",
       text: "Fahs Construction turned my dream home into reality. They delivered on time and on budget with exceptional quality.",
       rating: 5,
       location: "Beirut"
@@ -13,13 +13,13 @@ const Testimonials = () => {
       name: "Sarah M.",
       text: "Professional team, excellent communication, and outstanding results. Our office renovation exceeded all expectations.",
       rating: 5,
-      location: "Jounieh"
+      location: "Jounieh Tripoli"
     },
     {
       name: "Ahmad K.",
       text: "From planning to completion, Fahs Construction was professional and reliable. Highly recommend for any construction project.",
       rating: 5,
-      location: "Tripoli"
+      location: "Nabatieh"
     }
   ];
 
