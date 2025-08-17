@@ -6,13 +6,6 @@ import portfolio3 from "@/assets/portfolio-3.jpg";
 import portfolio4 from "@/assets/portfolio-4.jpg";
 import portfolio5 from "@/assets/portfolio-5.jpg";
 import portfolio6 from "@/assets/portfolio-6.jpg";
-// Using available images as placeholders
-const portfolio1 = portfolio1;
-const portfolio2 = portfolio2;
-const portfolio3 = portfolio3;
-const portfolio4 = portfolio4;
-const portfolio5 = portfolio5;
-const portfolio6 = portfolio6;
 
 const Portfolio = () => {
   const [filter, setFilter] = useState("all");
