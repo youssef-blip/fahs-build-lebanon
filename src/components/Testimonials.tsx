@@ -13,7 +13,7 @@ const Testimonials = () => {
       name: "Sarah M.",
       text: "Professional team, excellent communication, and outstanding results. Our office renovation exceeded all expectations.",
       rating: 5,
-      location: "Jounieh Tripoli"
+      location: "Tripoli"
     },
     {
       name: "Ahmad K.",
