@@ -1,14 +1,18 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-construction.jpg";
-import teamPhoto from "@/assets/team-photo.jpg";
+import portfolio1 from "@/assets/portfolio-1.jpg";
+import portfolio2 from "@/assets/portfolio-2.jpg";
+import portfolio3 from "@/assets/portfolio-3.jpg";
+import portfolio4 from "@/assets/portfolio-4.jpg";
+import portfolio5 from "@/assets/portfolio-5.jpg";
+import portfolio6 from "@/assets/portfolio-6.jpg";
 // Using available images as placeholders
-const portfolio1 = heroImage;
-const portfolio2 = teamPhoto;
-const portfolio3 = heroImage;
-const portfolio4 = teamPhoto;
-const portfolio5 = heroImage;
-const portfolio6 = teamPhoto;
+const portfolio1 = portfolio1;
+const portfolio2 = portfolio2;
+const portfolio3 = portfolio3;
+const portfolio4 = portfolio4;
+const portfolio5 = portfolio5;
+const portfolio6 = portfolio6;
 
 const Portfolio = () => {
   const [filter, setFilter] = useState("all");
@@ -17,16 +21,16 @@ const Portfolio = () => {
     {
       id: 1,
       image: portfolio1,
-      title: "Luxury Villa Beirut",
+      title: "Luxury Rooftop",
       category: "residential",
-      description: "Modern luxury villa with contemporary design"
+      description: "Modern luxury Rooftop with contemporary design"
     },
     {
       id: 2,
       image: portfolio2,
-      title: "Commercial Office Complex",
+      title: "Commercial Office ",
       category: "commercial",
-      description: "State-of-the-art office building with sustainable features"
+      description: "State-of-the-art office with sustainable features"
     },
     {
       id: 3,
@@ -52,9 +56,9 @@ const Portfolio = () => {
     {
       id: 6,
       image: portfolio6,
-      title: "Industrial Warehouse",
+      title: "Perfume Shop",
       category: "commercial",
-      description: "Large-scale industrial construction project"
+      description: "Elegant perfume boutique revamp—luminous shelving and brass accents."
     }
   ];
 
