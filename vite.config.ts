@@ -4,9 +4,28 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/",                 // important for a custom root domain
-  server: { host: "::", port: 8080 },
-  build: { outDir: "docs" }, // <-- make Pages read from /docs
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
-  resolve: { alias: { "@": path.resolve(__dirname, "./src") } },
+  // Custom root domain -> keep base as "/"
+  base: "/",
+
+  server: {
+    host: "::",
+    port: 8080,
+  },
+
+  // Build the static site into /docs so GitHub Pages can serve it from main/docs
+  build: {
+    outDir: "docs",
+    emptyOutDir: true, // cleans old builds so docs/ stays fresh
+  },
+
+  plugins: [
+    react(),
+    mode === "development" && componentTagger(),
+  ].filter(Boolean),
+
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
 }));
