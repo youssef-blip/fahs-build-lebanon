@@ -36,7 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist   # or ./docs if you’re building there
+          path: ./docs   # <-- IMPORTANT: matches your vite.config.js outDir
 
   deploy:
     needs: build
