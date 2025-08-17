@@ -98,7 +98,7 @@ const Portfolio = () => {
             <div 
               key={project.id}
               className="group relative overflow-hidden rounded-2xl shadow-primary hover:shadow-elegant transition-smooth hover:-translate-y-2 animate-scale-in cursor-pointer"
-              style={{ animationDelay: ${index * 0.1}s }}
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img
