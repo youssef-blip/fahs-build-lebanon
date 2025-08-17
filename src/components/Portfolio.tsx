@@ -28,9 +28,9 @@ const Portfolio = () => {
     {
       id: 3,
       image: portfolio3,
-      title: "Kitchen Renovation",
+      title: "Contemporary Living Room",
       category: "renovation",
-      description: "Complete kitchen transformation with modern amenities"
+      description: "Modern interior with custom lighting, cozy sofas, and warm wood accents."
     },
     {
       id: 4,
