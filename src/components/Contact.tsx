@@ -19,11 +19,38 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically send the form data to a backend
+    
+    // Create WhatsApp message with form data
+    const whatsappMessage = `Hello Fahs Construction! 👋
+
+I'm interested in your services. Here are my details:
+
+📞 Name: ${formData.name}
+📱 Phone: ${formData.phone}
+${formData.email ? `📧 Email: ${formData.email}` : ''}
+${formData.projectType ? `🏗️ Project Type: ${formData.projectType}` : ''}
+
+💬 Message:
+${formData.message}
+
+Looking forward to hearing from you!`;
+
+    // WhatsApp company number
+    const companyWhatsappNumber = '96181999136';
+    
+    // Create WhatsApp URL with pre-filled message
+    const whatsappUrl = `https://wa.me/${companyWhatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+    
+    // Open WhatsApp
+    window.open(whatsappUrl, '_blank');
+    
+    // Show success toast
     toast({
-      title: "Message Sent!",
-      description: "Thank you for your inquiry. We'll get back to you within 24 hours.",
+      title: "Redirecting to WhatsApp!",
+      description: "Your message is ready to send via WhatsApp.",
     });
+    
+    // Reset form
     setFormData({ name: "", phone: "", email: "", projectType: "", message: "" });
   };
 
